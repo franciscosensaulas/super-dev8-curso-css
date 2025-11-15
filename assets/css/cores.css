@@ -1,0 +1,31 @@
+/*css RESET */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* definir a cor do texto uando RGB(red green blue)
+R =>0...255
+G =>0...255
+B =>0...255
+*/
+
+h2 {
+    color: rgb(120, 192, 145);
+}
+
+div {
+    background-color: #004d8e;
+
+    a {
+        color: #FFFFFF;
+
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #ff6500;
+    }
+}
