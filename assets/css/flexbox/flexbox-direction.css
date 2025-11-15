@@ -1,3 +1,14 @@
+:root{
+    --section-background-color: #fff;
+    --section-border-color: #ddd;
+    --item-background-color: #8b45e0;
+    --body-background-color: #f5f5f5;
+    --item-color: #fff;
+    --flex-container-border-color: #999;
+    --flex-container-background-color: #fafafa;
+    --description-color: #555;
+}
+
 * {
     box-sizing: content-box;
 }
@@ -6,7 +17,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: var(--body-background-color);
 }
 
 h1 {
@@ -60,6 +71,7 @@ h1 {
 
 .exemplo3{
     flex-direction: row-reverse;
+    gap: 20px;
 }
 
 .exemplo4{
@@ -76,6 +88,7 @@ h1 {
 
 .justify-content-center{
     justify-content: center;
+    gap: 30px;
 }
 
 .justify-content-space-around{
@@ -126,3 +139,6 @@ h1 {
 .align-items-baseline{
     align-items: baseline;
 }
+
+
+/* align content */
